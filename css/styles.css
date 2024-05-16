@@ -108,7 +108,7 @@ h3{
     border-radius: 4px;
     width: 46%;
 }
-.pages-item:hover{
+.page-item:hover{
     box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.207);
 }
 .section3{
@@ -132,7 +132,7 @@ h3{
     width: 100%;
     margin-top: 16px;
 }
-.section3-item:hover{
+.section3-container:hover{
     box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.207);
 }
 .section3-item{
@@ -175,7 +175,9 @@ h3{
     border-radius: 10px;
     padding: 10px;
 }
-
+.smallbox:hover{
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.207);
+}
 /* @media screen and (max-width: 700px) {
     body{
         width: 100%;
