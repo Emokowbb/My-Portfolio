@@ -7,8 +7,6 @@ body{
     display: flex;
     max-width: 1024px;
     margin: auto;
-
-
 }
 .main{
     display: flex;
@@ -22,19 +20,20 @@ body{
 .nav{
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 .navigation{
     display: flex;
     background-color: rgb(25 25 26);
-    gap: 20px;
-    padding: 20px;
+    padding: 20px 0 20px 0;
     border-radius: 10px;
     list-style-type: none;
+    justify-content: space-between;
+
+
 }
 .navigation >  li a{
     color: white;
-    padding: 20px;
+    padding: 16px;
     text-decoration: none;
 }
 .navigation > li a:hover{
@@ -174,13 +173,14 @@ h3{
         display: flex;
         align-items: flex-start;
         justify-content: center;
+        width: fit-content;
     }
     .navigation{
-        gap: 10px;
+        width: fit-content;
     }
     .section1{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         gap: 30px;
         align-items: center;
     }
@@ -204,28 +204,3 @@ h3{
         flex-direction: column;
     }
 }
-/* @media screen and (max-width: 700px) {
-    body{
-        width: 100%;
-        margin: auto;
-    }
-    .main{
-        width: 90%;
-        margin: auto;
-        padding: 20px;
-    }
-    .navigation{
-        left: 500;
-        justify-content: center;
-        align-items: center;
-
-    }
-    .section1{
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
-
-    }
-    
-} */
